@@ -32,7 +32,7 @@ def perform_ocr(image_path):
 
 
 def get_ai_summary(text):
-    api_key = 'sk-b546058d2afc42a1899ca9e0c68c8c46'
+    api_key = 'sk-b546058d2afc42a1899ca9e0c6c46'#your api_key,this key is wrong,please change to your api_key
     api_url = 'https://api.deepseek.com/chat/completions'
 
     headers = {
